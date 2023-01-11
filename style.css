@@ -1,0 +1,60 @@
+.secondContainer{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 10vw);
+}
+
+.container{
+  /* display: flex; */
+  justify-content: center;
+  padding: 0 5px;  
+  background-color: rgb(252, 249, 249);
+}
+
+.primary{
+    background-color: black;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 400px;
+}
+.box{
+  border: 2px solid black;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  font-size: 7vw;
+}
+.box:hover{
+  background-color: grey;
+}
+
+.br-l{
+  border-left: 0;
+}
+.br-t{
+  border-top: 0;
+}
+.br-r{
+  border-right: 0;
+}
+.br-b{
+  border-bottom: 0;
+}
+.src{
+  display: none;
+}
+#button{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#button:hover::after{
+  background-color: red;
+  color: white;
+  margin-left: 10vw;
+  content: "Warning!";
+}
