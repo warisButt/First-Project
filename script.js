@@ -7,8 +7,8 @@ let turn = "X";
 const changeTurn = () => {
   return turn === "X" ? "0" : "X";
 };
+// making changes in new branch
 let boxes = document.getElementsByClassName("box");
-
 Array.from(boxes).forEach((element) => {
   let boxtext = element.querySelector(".boxtext");
   element.addEventListener("click", (e) => {
