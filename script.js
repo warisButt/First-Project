@@ -2,7 +2,7 @@ console.log("Tic Tac Toe Game");
 function reset_func() {}
 let music = new Audio("gameOver.wav");
 
-let turn = "X";
+let turn = "O";
 
 const changeTurn = () => {
   return turn === "X" ? "0" : "X";
